@@ -1,0 +1,38 @@
+{
+  "name": "roar_builder",
+  "description": "IDE for Lion Project",
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "shaminaus@gmail.com <shaminaus@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhammadShamim/roar_builder/issues"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadShamim/roar_builder.git"
+  },
+  "homepage": "https://github.com/MuhammadShamim/roar_builder#readme",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "vue": "^2.3.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-env": "^1.5.1",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^5.0.1",
+    "vue-loader": "^12.1.0",
+    "vue-template-compiler": "^2.3.3",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
